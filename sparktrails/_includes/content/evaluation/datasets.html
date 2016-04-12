@@ -1,0 +1,22 @@
+<h3>Datasets</h3>
+<p>
+	In the SparkTrails paper, we use several datasets to evaluate the 
+	runtime of our approach.
+	This includes several synthetic datasets, a Wikipedia dataset and a Flickr dataset 
+	aimed at demonstrating the scalability of SparkTrails.
+	In this section we elaborate on these datasets.
+</p>
+<p>
+	Generally, HypTrails works with trails on a finite set of states
+	in a Markov chain scenario of order 1.
+	Thus, each evaluation dataset is made up of two matrices: 
+	an <strong>observation matrix</strong> and a <strong>hypothesis matrix</strong>.
+	The observation matrix contains the number observation for each state transition
+	and the hypothesis matrix contains the transition probabilities between states
+	according to a user hypothesis. 
+</p>
+
+
+{% include content/evaluation/datasets/synthetic.html %}
+{% include content/evaluation/datasets/wikipedia.html %}
+{% include content/evaluation/datasets/flickr.html %}

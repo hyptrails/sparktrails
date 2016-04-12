@@ -1,0 +1,66 @@
+<h4>Synthetic Datasets</h4>
+<p>
+	Generally we use synthetic datasets because we can easily scale their size.
+	Additionally, we can identify the characteristics of SparkTrails with regard to
+	the sparsity of the given datasets. 
+	Thus, overall, we work with two types synthetic datasets:
+	dense datasets and a sparse datasets.
+	Both are generated randomly.
+	The general procedure is as follows:
+</p>
+<ol>
+	<li>
+		Define the number of states for the datasets, a seed for
+		the pseudo-random generator and an upper limit for
+		the observation count.
+	</li>
+	<li>
+		Create a list with all the states and assign a pseudo-random 
+		number, a state seed, to each state, using the
+		seed from step 1.
+	</li>
+	<li>
+		For each state, create another list with all the states
+		and assign a pseudo-random value between 1 and the
+		upper limit specified in step 1 to each of them, using
+		the state seed from step 2.
+	</li>
+</ol>
+<p>
+	With this approach, we get a dense observation matrix, i.e., 
+	a matrix with no zero entries.
+	However, since typical datasets are usually sparse, 
+	i.e., there are a lot of entries equals to zero, 
+	we need a way to imitate this characteristic. 
+	Hence, we introduce a so called <em>row fraction</em> and <em>column fraction</em>. 
+	The row fraction is used to determine the count of non-zero rows in
+	our observation matrix, the column fraction to determine
+	the number of non-zero entries in the remaining rows. 
+	Both are used as a probability for each row/column to be zero or
+	not and are applied before iterating through the list of the
+	states in step 2/3.
+</p>
+
+<h5>Dense Datasets</h5>
+<p>
+	The dense datasets (<em>s<sub>1</sub> and s<sub>2</sub></em>) 
+	use dense observation and hypothesis matrices created as described above.
+	For <em>s<sub>1</sub></em> we use 93000 states and 
+	for <em>s<sub>2</sub></em> we use 186000 states.
+	In both cases we use a single generated matrix as both
+	<strong>observation and hypothesis matrix</strong>.
+</p>
+
+<h5>Sparse Datasets</h5>
+<p>
+	The sparse dataset (<em>r</em>) is randomly created using
+	<em>row fraction</em> and <em>column fraction</em> as described above.
+	We use 26350000 states and a row as well as a column fraction of 1%.
+	Note that while this is very sparse, the fractions still
+	larger than for example for the Wikipedia dataset.
+	Again we use a single generated matrix as both
+	<strong>observation and hypothesis matrix</strong>.
+	In the sparse case this represents the worst case with regard to
+	runtime since SparkTrails takes advantage of the general sparisty
+	structure as described in the corresponding paper.
+</p>

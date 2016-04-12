@@ -1,0 +1,35 @@
+<h4>Wikipedia Dataset</h4>
+<p>
+	The Wikipedia datasets (<em>w<sub>self</sub> and w<sub>nw</sub></em>) is based on transitions between Wikipedia articles.
+</p>
+<p>
+	The <strong>observation matrix</strong> for both datasets (<em>w<sub>self</sub> and w<sub>nw</sub></em>)
+	contains transition counts extracted from the logs of 
+	the desktop version of Wikipedia from Feb 2015 [1] by Wulczyn and Taraborelli.
+	Log entries identified to be from spiders and bots are not included.
+	Transition that occur less than 10 times in the logs are removed.
+	The dataset contains transitions with articles from the main namespace 
+	as but also includes incoming traffic from external sources.
+	For our experiments, we discard the latter.
+</p>
+<p>
+	For the "self" dataset (<em>w<sub>self</sub></em>), we reuse the observation matrix
+	as <strong>hypothesis matrix</strong>.
+</p>
+<p>
+	For the network dataset (<em>w<sub>nw</sub></em>), the <strong>hypothesis matrix</strong> 
+	uses the underlying link network created from the links between the articles 
+	in the XML Dump of the English Wikipedia from 4<sup>th</sup> of March 2015.
+	The transition probability between a state <em>i</em> and a state <em>j</em>
+	is equal to 0 if there is no link and 1 over the number of outgoing links of state <em>i</em> otherwise.
+</p>
+
+<div class="publications">
+	<ul>
+		<li class="details">
+			[1] <b>Ellery Wulczyn, Dario Taraborelli</b><br/>
+			<a href="https://datahub.io/dataset/wikipedia-clickstream/resource/be85cc68-d1e6-4134-804a-fd36b94dbb82">Wikipedia clickstream</a><br/>
+			<i>figshare, 2015 (accessed: 2015-12-13)</i>
+		</li>
+	</ul>
+</div>
