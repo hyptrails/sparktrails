@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="200"
+   height="200"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="New document 1">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="154.80563"
+     inkscape:cy="85.322364"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     borderlayer="true"
+     inkscape:window-width="1362"
+     inkscape:window-height="711"
+     inkscape:window-x="0"
+     inkscape:window-y="36"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-852.36218)">
+    <text
+       xml:space="preserve"
+       style="font-size:95.00348663px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-10.065589"
+       y="944.3764"
+       id="text2985"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0032035,0.99680673)"><tspan
+         sodipodi:role="line"
+         id="tspan2987"
+         x="-10.065589"
+         y="944.3764"
+         style="font-size:133.00486755px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#333333;font-family:Arial;-inkscape-font-specification:Arial">hyp</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:97.32131958px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#808080;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-0.37105817"
+       y="1044.5948"
+       id="text2989"
+       sodipodi:linespacing="125%"
+       transform="scale(0.99391348,1.0061238)"><tspan
+         sodipodi:role="line"
+         id="tspan2991"
+         x="-0.37105817"
+         y="1044.5948"
+         style="fill:#808080;font-family:Arial;-inkscape-font-specification:Arial">trails</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect3763"
+       width="264.97534"
+       height="42.719337"
+       x="-24.021158"
+       y="1054.1038" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect3765"
+       width="276.52112"
+       height="44.451202"
+       x="-38.453354"
+       y="807.77106" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect3767"
+       width="107.95292"
+       height="256.31601"
+       x="-107.41881"
+       y="824.96655"
+       ry="0" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect3769"
+       width="50.224049"
+       height="244.19292"
+       x="201.69859"
+       y="841.70801" />
+  </g>
+</svg>
